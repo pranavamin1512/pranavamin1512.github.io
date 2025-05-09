@@ -7,7 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object ,
+html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -1294,7 +1294,6 @@ input, select, textarea {
 	form input[type="password"],
 	form select,
 	form textarea {
-		-webkit-appearance: none;
 		display: block;
 		width: 100%;
 		border-radius: 8px;
@@ -1440,14 +1439,13 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
 		background-color: #4091bf;
 		border-radius: 8px;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.35), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.35);
 		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
-		color: #fff !important;
+		color: #fff !important ;
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: 800;
